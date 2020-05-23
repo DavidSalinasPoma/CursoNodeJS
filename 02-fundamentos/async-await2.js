@@ -46,8 +46,6 @@ let getSalario = async (empleado) => {
 
 };
 
-
-
 let getInformacion = async (id) => {
 
     let empleado = await getEmpleado(id);
